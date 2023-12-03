@@ -31,3 +31,33 @@
     font-weight: 700;
 }
 
+/*Configurações MIN-WIDTH: 1024px */
+
+
+/*---------------FIM---------------*/
+
+
+@media screen and (min-width: 1024px){
+
+    .topicos__lista{
+        width: 80%;
+        margin: 2em auto;
+    }
+
+    .topicos__titulo, 
+    .topicos__link{
+        font-size: 24px;
+    }
+
+    .topicos__link{
+        padding: .5em;
+    }
+
+    .topicos{
+        padding: 2em 0;
+    }
+
+       
+
+}
+

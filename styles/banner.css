@@ -33,3 +33,29 @@
     background: url("../img/Pesquisa.svg") no-repeat;
     background-position: 0.5em;
 }
+
+/*Configurações MIN-WIDTH: 1024px */
+
+
+/*---------------FIM---------------*/
+
+
+@media screen and (min-width: 1024px){
+
+    .banner__titulo{
+        font-size: 36px;
+    }
+
+    .banner__pesquisa{
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder{
+        background-position: 6em;
+    }
+
+    .banner{
+        padding: 4em 2em;
+    }
+
+}

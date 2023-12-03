@@ -6,3 +6,49 @@ hr{
     padding: 1em;
     background-color: var(--cor-rodape);
 }
+
+/*Configurações MIN-WIDTH: 1024px */
+
+.lista__rodape{
+    display: none;
+}
+
+
+/*---------------FIM---------------*/
+
+
+@media screen and (min-width: 1024px){
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .lista__rodape__link{
+        text-decoration: none;
+        font-size: 14px;
+        color: var(--cor-rodape-letras);
+    }
+
+    .lista__rodape__item{
+        display: flex;
+        align-items: center;
+        margin-top: 1em;
+        gap: .5em;
+    }
+
+    .lista__rodape__titulo{
+        color: var(--cor-rodape-titulos);
+        text-transform: uppercase;
+        margin: 2em 0 2em 0;
+    }
+
+    .rodape__titulo{
+        margin: 1.4em;
+        font-size: 24px;
+    }
+
+    .lista__rodape{
+        display: block;
+    }
+
+}

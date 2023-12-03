@@ -13,9 +13,13 @@
     --azul-degrade: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
     --azul: #002F52;
     --cor-rodape: #f9f9f9;
+    --cor-preta: #000000;
+    --cor-rodape-letras: #474646;
+    --cor-rodape-titulos: #858585;
 
     /*Fontes do Site*/
     --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundario: 'Josefin Sans', sans-serif;
 }
 
 body{
