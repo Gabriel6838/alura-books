@@ -117,3 +117,53 @@
   }
 
 }
+
+/*Configurações MIN-WIDTH: 1200px */
+
+
+
+
+/*---------------FIM---------------*/
+
+
+@media screen and (min-width: 1200px){
+   .carrossel__titulo{
+      font-size: 32px;
+      
+   }
+
+   .carrossel__tela{
+      display: flex;
+      align-items: center;
+      margin: 0 20vw 3em 20vw;
+   }
+
+   .swiper{
+      width: 50%;
+   }
+
+   .card{
+      width: 60%;
+      margin-left: 3em;
+   }
+
+   .swiper-pagination{
+      margin: 1em 0;
+   }
+
+   .descricao__titulo{
+      font-size: 32px;
+   }
+   
+   .descricao__titulo-livro{
+      font-size: 18px;
+   }
+
+   .descricao__texto{
+      font-size: 16px;
+   }
+
+   .descricao{
+      width: 60%;
+   }
+}

@@ -61,3 +61,24 @@
 
 }
 
+/*Configurações MIN-WIDTH: 1200px */
+
+
+/*---------------FIM---------------*/
+
+
+@media screen and (min-width: 1200px){
+
+    .topicos__lista{
+        width: 40%;
+    }
+
+    .topicos__link{
+        padding: 1em;
+    }
+
+    .topicos__item{
+        margin: 2.5em .5em;
+    }
+
+}

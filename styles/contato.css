@@ -75,3 +75,35 @@
     }
 
 }
+
+/*Configurações MIN-WIDTH: 1200px */
+
+
+/*---------------FIM---------------*/
+
+
+@media screen and (min-width: 1200px){
+
+    .contato__titulo{
+        font-size: 24px;
+    }
+
+    .contato__texto{
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .contato__email{
+        width: 25%;
+        margin-right: auto;
+    }
+
+    .contato__descricao{
+        margin-left: auto;
+    }
+
+    .contato{
+        padding: 5em 20em;
+    }
+
+}

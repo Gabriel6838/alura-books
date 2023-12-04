@@ -52,3 +52,36 @@ hr{
     }
 
 }
+
+/*Configurações MIN-WIDTH: 1024px */
+
+
+
+/*---------------FIM---------------*/
+
+
+@media screen and (min-width: 1024px){
+    .lista__rodape{
+        border-left: 1px solid var(--cor-rodape-titulos);
+        
+    }
+
+    .lista__rodape__item, 
+    .lista__rodape__titulo{
+        margin-left: 1em;
+    }
+
+    .rodape{
+        padding: 3em 0;
+    }
+
+    .rodape__titulo{
+        margin: 0;
+    }
+
+    .lista__rodape__titulo{
+        margin: 0 0 2em 1em;
+    }
+ 
+
+}

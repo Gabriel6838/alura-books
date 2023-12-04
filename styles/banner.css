@@ -59,3 +59,26 @@
     }
 
 }
+
+/*Configurações MIN-WIDTH: 1200px */
+
+
+/*---------------FIM---------------*/
+
+
+@media screen and (min-width: 1200px){
+
+    .banner__pesquisa{
+        width: 30%;
+        margin-top: 1em;
+    }
+
+    .banner__pesquisa::placeholder{
+        background-position: 10em;
+    }
+
+    .banner{
+        padding: 7em 2em;
+    }
+
+}
