@@ -154,7 +154,6 @@
 }
 
 
-/*Configurações MIN-WIDTH: 1200px */
 
 .container__imagem__texto{
     display: none;
@@ -163,7 +162,6 @@
 
 
 
-/*---------------FIM---------------*/
 
 
 @media screen and (min-width: 1200px){
